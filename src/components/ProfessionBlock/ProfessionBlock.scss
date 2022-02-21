@@ -1,0 +1,17 @@
+.proff-icon {
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  display:inline-block;
+  margin:20px;
+  cursor: pointer;
+
+  padding:5px;
+  border-radius: 5px;
+}
+.proff-icon:hover {
+  background-color: #ffc107;
+  border: solid #ffc107;
+}

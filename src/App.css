@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+#root {
+  max-width:1024px;
+  margin-left:auto;
+  margin-right: auto;
+  background: #333333dd;
+
+}
+.edit-icon {
+  border: solid #ffaaaa 1px;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+  color:#ffc107;
+}
+.edit-icon:hover {
+  border-color:#ff3333;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.pill-corners {
+  border-radius: 21px !important;
+}
+.search-box {
+  background: #aaaaaaee !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+body {
+  color:white;
+  background-color: transparent !important;
+}
+html {
+  background : url("images/bg.jpeg") no-repeat center center fixed;
+  background-position: center center;
+  height:100%;
+  background-size : cover;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
